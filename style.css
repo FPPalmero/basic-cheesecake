@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: "source serif pro";
+    font-size: 62.5%;
+}
+
+body {
+    color: #A54328;
+    font-size: 1.6rem;
+}
+
+main {
+    max-width: 32rem;
+    padding: 5.6rem 4rem;
+    margin-inline: auto;
+    box-sizing: content-box;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+h1, h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+
+img {
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
+h2 {
+    margin-bottom: 3.2rem;
+}
+
+p, li, strong {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+ul, ol {
+    padding-left: 2.0rem;
+    margin-top: 3px;
+}
+
+ul {
+    margin-bottom: 2.4rem;
+}
+
+button {
+    font-family: "source serif 4";
+    background-color: #A54328;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border: 0;
+    border-radius: 0.6rem;
+    margin-top: 1.8rem;
+}
+
+
+@media (min-width: 1024px) {
+
+    body {
+        background-image: url(https://s3-alpha-sig.figma.com/img/6597/0732/27b775104e016b33024ed903e8b6324f?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UjupVRrXs1NwCsUTJyKua8zvNZYeArmfdrlxqLCdxShsV~Qp~eXmUcVyYBkNqPQn7K5QNwiA2JUP8aUwka5PRZkGqr0LaO6XDPbXiRpQT1Js7ylmg7S1Yy~RpbbBvI2ilDtABsrrkml79L8zhTW66OiXvCXg1WSb8KcOvdOYucSLEntrPTGW~~1GPLSTMfKhurqM33WxdeJY6SFUmU6fAygW6hW4r03WqY8YOjddzzc4oRoTiQQQXNSD65O~pgjMt91QSOJw5Cy-nQXOXx3QHJy2~XfyHvczbvjcPlQG2J0dSZJJKOZsNLSYh78xuU-VqrvrUG4aTjacJ0SrK4X9-g__) lightgray 50% / cover no-repeat;
+    }
+
+    main {
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+    }
+
+    .recipe {
+        max-width: 43.5rem;
+    }
+
+    .prepare {
+        max-width: 52.5rem;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    p, li, strong {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+}
